@@ -14,6 +14,11 @@ export const Wrapper = styled.div`
         border-radius: 0 0 20px 20px;
         background: transparent;
         border: transparent;
+        cursor: pointer;
+    }
+
+    button:hover {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
 
     img {
@@ -27,5 +32,6 @@ export const Wrapper = styled.div`
         font-family: Arial, Helvatica, sans-serif;
         padding: 1rem;
         height: 100%;
+        word-wrap: break-word;
     }
 `
